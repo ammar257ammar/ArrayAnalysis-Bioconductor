@@ -1,0 +1,21 @@
+Package: ArrayAnalysis
+Type: Package
+Title: ArrayAnalysis
+Version: 1.0.0
+Author: Lars Eijssen <l.eijssen@maastrichtuniveristy.nl>
+Maintainer: Ammar Ammar <a.ammar@maastrichtuniversity.nl>, 
+            Vishnu Karthik <vishnukarthik211@gmail.com>
+Description: A library for quality control and pre-processing analysis 
+            of Affymetrix gene expression results by extending, 
+            integrating and harmonizing functionality of Bioconductor packages.
+Depends: R (>= 3.6.0)
+License: Apache License (>= 2)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
+biocViews: Software, AssayDomain, Transcription, GeneExpression, QualityControl
+Imports: Biobase, affy, affyPLM, affyQCReport, bioDist, biomaRt,
+    gcrma, gplots, plier, simpleaffy, yaqcaffy, grDevices, graphics, stats, utils, methods, gdata, R2HTML, limma
+Suggests: 
+    knitr
+VignetteBuilder: knitr

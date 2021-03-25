@@ -1,0 +1,7 @@
+^.*\.Rproj$
+^\.Rproj\.user$
+^LICENSE\.md$
+^R/examples\.R$
+^R/temp\.R$
+.Rhistory
+ArrayAnalysis.Rproj
